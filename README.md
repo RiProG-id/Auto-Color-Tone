@@ -1,6 +1,6 @@
-## AllGame Priority
+## Auto Color Tone
 
-**AllGame Priority** Automatically adjusts your Android screen tone with realistic and dynamically varied color effects.
+**Auto Color Tone** Automatically adjusts your Android screen tone with realistic and dynamically varied color effects.
 
 ## Build Instructions
 
@@ -15,7 +15,7 @@ bash build.sh
 ### Root Method
 
 1. **Install Module:**
-   Install `AllGame Priority 5.0 R.zip` using a root manager app like Magisk, KernelSU, or Apatch.
+   Install `Auto Color Tone 5.0 R.zip` using a root manager app like Magisk, KernelSU, or Apatch.
 
 2. **Reboot Device:**
    Reboot your device.
