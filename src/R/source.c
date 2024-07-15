@@ -53,9 +53,9 @@ int main() {
   char kcal_g[16];
   char kcal_b[16];
   char kcal_rgb[32];
+  char kcal_cont[16];
   char kcal_sat[16];
   char kcal_val[16];
-  char kcal_cont[16];
   char sat_boost[16];
 
   struct stat st;
@@ -186,8 +186,8 @@ int main() {
 
       if (kcal_path_exists == 1) {
         check_write("/sys/devices/platform/kcal_ctrl.0/kcal", kcal_rgb);
-        check_write("/sys/devices/platform/kcal_ctrl.0/kcal_sat", kcal_sat);
         check_write("/sys/devices/platform/kcal_ctrl.0/kcal_cont", kcal_cont);
+        check_write("/sys/devices/platform/kcal_ctrl.0/kcal_sat", kcal_sat);
         check_write("/sys/devices/platform/kcal_ctrl.0/kcal_val", kcal_val);
       } else if (kcal_path_exists == 2) {
         check_write("/sys/module/msm_drm/parameters/kcal_red", kcal_r);
